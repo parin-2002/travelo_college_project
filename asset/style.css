@@ -1,0 +1,63 @@
+.nav-link:hover {
+  text-decoration: underline;
+  text-shadow: 2px 2px 3px rgb(0, 0, 0.1);
+}
+#nav-button {
+  border-radius: 50px !important;
+  font-size: 14px;
+}
+#nav-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.darkmodebtn {
+  z-index: 9999;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 2em;
+  background-color: black;
+  width: 50px;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  background-color: white;
+}
+
+.darkmode {
+  filter: invert(100%);
+}
+
+img {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+}
+
+#review {
+  font-weight: 450;
+  position: relative !important;
+  background-color: #ffffff70;
+}
+
+#review::after {
+  content: "";
+  background-image: url("https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  z-index: -1;
+  top: 0px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  left: 0px;
+  position: absolute;
+}
