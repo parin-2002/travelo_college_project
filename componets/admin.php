@@ -74,7 +74,7 @@ include_once('./connection.php');
               <td><?php echo $one['address'];?></td>
               <td><?php echo $one['date']; ?></td>
              <td><img style="width:120px; height:100px;" src="../<?php echo $one['img']; ?>" alt="img"/></td>
-             <td><a href="#" type="button" class="btn btn-primary">Update</a></td>
+             <td><a href="./edit.php?user=admin&id=<?php echo $one['id']; ?>" type="button" class="btn btn-primary">Update</a></td>
              <td><a href="./delete.php?user=admin&id=<?php echo $one['id']; ?>" type="button" class="btn btn-danger">Delete</a></td>
             </tr>
          <?php   
