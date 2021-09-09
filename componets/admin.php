@@ -30,9 +30,9 @@ include_once('./connection.php');
         .setimg{
             width:100%;
             height: 100vh;
-            /* background: url('https://source.unsplash.com/1600x900/?nature,water');
+            background: url('https://source.unsplash.com/1600x900/?nature,water');
             background-repeat: no-repeat;
-            background-position: center; */
+            background-position: center;
         }
     </style>
     <title>Admin</title>
